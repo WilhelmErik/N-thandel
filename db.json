@@ -19,5 +19,14 @@
     ],
     "moreTest":{
         "idk":333
-    }
+    },
+    "testProducts":[
+        {
+            "id":1,
+            "name":"something",
+            "price":300,
+            "imageURL":"a",
+            "description":"Lorem ipsum"
+        }
+    ]
 }
