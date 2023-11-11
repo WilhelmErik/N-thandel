@@ -1,3 +1,5 @@
+import fetchProducts from "../utils/fetchData.js";
+
 const BASE_URL =
   "https://my-json-server.typicode.com/WilhelmErik/N-thandel/testProducts/";
 
@@ -17,17 +19,9 @@ const getProduct = async (req, res) => {
   const id = req.params.id;
   const response = await fetchProducts();
   console.log(response, " What is the shape");
-  const targetProduct = reponse.find((product.id = id));
+  const targetProduct = response.find((product) => product.id === id);
   console.log(targetProduct);
   res.status(200).json(response);
 };
-
-async function fetchProducts() {
-  console.log("Fetching in progress");
-  const response = await fetch(BASE_URL);
-  const data = await response.json();
-  console.log(data);
-  return data;
-}
 
 export { listProducts, getProduct };
