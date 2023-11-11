@@ -27,6 +27,20 @@
             "price":300,
             "imageURL":"a",
             "description":"Lorem ipsum"
+        },
+        {
+            "id":2,
+            "name":"something2",
+            "price":300,
+            "imageURL":"a",
+            "description":"Lorem ipsum"
+        },
+        {
+            "id":3,
+            "name":"something3",
+            "price":300,
+            "imageURL":"a",
+            "description":"Lorem ipsum"
         }
     ]
 }

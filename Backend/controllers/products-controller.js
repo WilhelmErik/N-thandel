@@ -1,7 +1,10 @@
 const BASE_URL =
-  "https://my-json-server.typicode.com/WilhelmErik/N-thandel/testProducts";
+  "https://my-json-server.typicode.com/WilhelmErik/N-thandel/testProducts/";
 
-const listProducts = async (req, res) => {};
+const listProducts = async (req, res) => {
+  const response = await fetchProducts();
+  res.status(200).json(response);
+};
 
 const getProduct = async (req, res) => {
   if (req.params.id === undefined) {
@@ -12,10 +15,19 @@ const getProduct = async (req, res) => {
   }
 
   const id = req.params.id;
+  const response = await fetchProducts();
+  console.log(response, " What is the shape");
+  const targetProduct = reponse.find((product.id = id));
+  console.log(targetProduct);
+  res.status(200).json(response);
 };
 
-async function fetchproducts() {
+async function fetchProducts() {
+  console.log("Fetching in progress");
   const response = await fetch(BASE_URL);
+  const data = await response.json();
+  console.log(data);
+  return data;
 }
 
 export { listProducts, getProduct };
