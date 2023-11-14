@@ -22,12 +22,12 @@
     },
     "testProducts":[
         {
-            "id": 101,
+            "id": 1,
             "name": "Twinkling Star String Lights",
             "price": 20.00,
             "category": "String Lights",
             "theme": "Twinkling Star",
-            "imageURL": "url_to_star_string_lights_image",
+            "imageURL": "candle (1).png",
             "description": "Beautiful star-shaped string lights, perfect for creating a cozy and festive atmosphere.",
             "dimensions": "15m",
             "weight": "300g",
@@ -35,12 +35,12 @@
           
         },
         {
-            "id": 102,
+            "id": 2,
             "name": "Twinkling Star String Lights",
             "price": 20.00,
             "category": "String Lights",
             "theme": "Twinkling Star",
-            "imageURL": "url_to_star_string_lights_image",
+            "imageURL": "candle (2).png",
             "description": "Beautiful star-shaped string lights, perfect for creating a cozy and festive atmosphere.",
             "dimensions": "15m",
             "weight": "300g",
@@ -48,12 +48,12 @@
           
         },
         {
-            "id": 103,
+            "id": 3,
             "name": "Twinkling Star String Lights",
             "price": 20.00,
             "category": "String Lights",
             "theme": "Twinkling Star",
-            "imageURL": "url_to_star_string_lights_image",
+            "imageURL": "candle (3).png",
             "description": "Beautiful star-shaped string lights, perfect for creating a cozy and festive atmosphere.",
             "dimensions": "15m",
             "weight": "300g",
@@ -61,12 +61,12 @@
           
         },
         {
-            "id": 104,
+            "id": 4,
             "name": "Twinkling Star String Lights",
             "price": 20.00,
             "category": "String Lights",
             "theme": "Twinkling Star",
-            "imageURL": "url_to_star_string_lights_image",
+            "imageURL": "candle (4).png",
             "description": "Beautiful star-shaped string lights, perfect for creating a cozy and festive atmosphere.",
             "dimensions": "15m",
             "weight": "300g",
@@ -74,12 +74,12 @@
           
         },
         {
-            "id": 105,
+            "id": 5,
             "name": "Elegant Metalic Ornament",
             "price": 15.00,
             "category": "Ornaments",
             "theme": "Metalic Elegance",
-            "imageURL": "url_to_glass_ornaments_image",
+            "imageURL": "ornament (1).png",
             "description": "A set of six handcrafted glass ornaments, each with a unique design to add sophistication to your Christmas decor.",
             "dimensions": "5cm x 5cm",
             "weight": "100g",
@@ -87,12 +87,12 @@
           
         },
         {
-            "id": 106,
+            "id": 6,
             "name": "Elegant Metalic Ornament",
             "price": 15.00,
             "category": "Ornaments",
             "theme": "Metalic Elegance",
-            "imageURL": "url_to_glass_ornaments_image",
+            "imageURL": "ornament (2).png",
             "description": "A set of six handcrafted glass ornaments, each with a unique design to add sophistication to your Christmas decor.",
             "dimensions": "5cm x 5cm",
             "weight": "100g",
@@ -100,12 +100,12 @@
           
         },
         {
-            "id": 107,
+            "id": 7,
             "name": "Elegant Metalic Ornament",
             "price": 15.00,
             "category": "Ornaments",
             "theme": "Metalic Elegance",
-            "imageURL": "url_to_glass_ornaments_image",
+            "imageURL": "ornament (3).png",
             "description": "A set of six handcrafted glass ornaments, each with a unique design to add sophistication to your Christmas decor.",
             "dimensions": "5cm x 5cm",
             "weight": "100g",
@@ -113,12 +113,12 @@
           
         },
         {
-            "id": 108,
+            "id": 8,
             "name": "Elegant Metalic Ornament",
             "price": 15.00,
             "category": "Ornaments",
             "theme": "Metalic Elegance",
-            "imageURL": "url_to_glass_ornaments_image",
+            "imageURL": "ornament (4).png",
             "description": "A set of six handcrafted glass ornaments, each with a unique design to add sophistication to your Christmas decor.",
             "dimensions": "5cm x 5cm",
             "weight": "100g",
@@ -126,12 +126,12 @@
           
         },
         {
-            "id": 109,
+            "id": 9,
             "name": "Flickering LED Candle",
             "price": 25.00,
             "category": "LED Candles",
             "theme": "Flickering Flame",
-            "imageURL": "url_to_led_candles_image",
+            "imageURL": "light (1).png",
             "description": "Safe and long-lasting LED candles that mimic the warm glow of real flames, perfect for setting a festive mood.",
             "dimensions": "10cm height",
             "weight": "150g",
@@ -139,12 +139,12 @@
            
         },
         {
-            "id": 110,
+            "id": 10,
             "name": "Flickering LED Candle",
             "price": 25.00,
             "category": "LED Candles",
             "theme": "Flickering Flame",
-            "imageURL": "url_to_led_candles_image",
+            "imageURL": "light (2).png",
             "description": "Safe and long-lasting LED candles that mimic the warm glow of real flames, perfect for setting a festive mood.",
             "dimensions": "10cm height",
             "weight": "150g",
@@ -152,12 +152,12 @@
            
         },
         {
-            "id": 111,
+            "id": 11,
             "name": "Flickering LED Candle",
             "price": 25.00,
             "category": "LED Candles",
             "theme": "Colorful Flame",
-            "imageURL": "url_to_led_candles_image",
+            "imageURL": "light (3).png",
             "description": "Safe and long-lasting LED candles that mimic the warm glow of real flames, perfect for setting a festive mood.",
             "dimensions": "10cm height",
             "weight": "150g",
@@ -165,12 +165,12 @@
            
         },
         {
-            "id": 112,
+            "id": 12,
             "name": "Flickering LED Candle",
             "price": 25.00,
             "category": "LED Candles",
             "theme": "Colorful Flame",
-            "imageURL": "url_to_led_candles_image",
+            "imageURL": "light (4).png",
             "description": "Safe and long-lasting LED candles that mimic the warm glow of real flames, perfect for setting a festive mood.",
             "dimensions": "10cm height",
             "weight": "150g",
@@ -178,12 +178,12 @@
            
         },
         {
-            "id": 113,
+            "id": 13,
             "name": "Lush Artificial Christmas Tree",
             "price": 57.00,
             "category": "Artificial Christmas Trees",
             "theme": "Lush Green",
-            "imageURL": "url_to_artificial_christmas_tree_image",
+            "imageURL": "tree (1).png",
             "description": "A 6-foot artificial Christmas tree that looks as good as a real one, easy to assemble and perfect for any space.",
             "dimensions": "6ft",
             "weight": "5kg",
@@ -191,12 +191,12 @@
         
         },
         {
-            "id": 114,
+            "id": 14,
             "name": "Lush Artificial Christmas Tree",
             "price": 44.00,
             "category": "Artificial Christmas Trees",
             "theme": "Lush Green",
-            "imageURL": "url_to_artificial_christmas_tree_image",
+            "imageURL": "tree (2).png",
             "description": "A 6-foot artificial Christmas tree that looks as good as a real one, easy to assemble and perfect for any space.",
             "dimensions": "6ft",
             "weight": "5kg",
@@ -204,12 +204,12 @@
         
         },
         {
-            "id": 115,
+            "id": 15,
             "name": "Lush Artificial Christmas Tree",
             "price": 53.00,
             "category": "Artificial Christmas Trees",
             "theme": "Lush Blue",
-            "imageURL": "url_to_artificial_christmas_tree_image",
+            "imageURL": "tree (3).png",
             "description": "A 6-foot artificial Christmas tree that looks as good as a real one, easy to assemble and perfect for any space.",
             "dimensions": "6ft",
             "weight": "5kg",
@@ -217,12 +217,12 @@
         
         },
         {
-            "id": 116,
+            "id": 16,
             "name": "Lush Artificial Christmas Tree",
             "price": 51.00,
             "category": "Artificial Christmas Trees",
             "theme": "Lush Blue",
-            "imageURL": "url_to_artificial_christmas_tree_image",
+            "imageURL": "tree (4).png",
             "description": "A 6-foot artificial Christmas tree that looks as good as a real one, easy to assemble and perfect for any space.",
             "dimensions": "6ft",
             "weight": "5kg",

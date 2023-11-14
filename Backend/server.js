@@ -24,4 +24,4 @@ app.use("/api/v1/products/", productRouter);
 //   res.json({ data: datan });
 // });
 
-app.listen(_PORT, () => console.log("Server is Live"));
+app.listen(_PORT, () => console.log("Server is Live on: ", _PORT));
