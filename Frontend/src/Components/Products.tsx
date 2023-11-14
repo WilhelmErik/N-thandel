@@ -1,67 +1,34 @@
 import React from "react";
-import { useEffect, useState, type ReactNode } from "react";
+import "./products.css";
+import { useEffect, useState } from "react";
 // import PropTypes from "prop-types";
-import { fetchData } from "../utilities/fetchData";
-import { candle1 } from "../assets/img/candle (1).png";
-type ProductsType = {
-  id: number;
-  name: string;
-  price: number;
-  category: string;
-  theme: string;
-  imageURL: string;
-};
+import { Link } from "react-router-dom";
 
-type ProductsResponseType = {
-  status: string;
-  statisCode: number;
-  items: number;
-  data: ProductsType[];
-};
+import { fetchData } from "../utilities/fetchData";
+
+import { ProductsResponseType, ProductType } from "./IProduct";
 
 function Products() {
-  const [products, setProducts] = useState<ProductsType[]>();
+  const [products, setProducts] = useState<ProductType[]>();
 
   useEffect(() => {
     const getProducts = async () => {
       const result = await fetchData<ProductsResponseType>();
-      console.log(result);
-      console.log(result.data);
       setProducts(result.data);
-      //   const data = await result.json();
-      //   console.log(data);
-      //   try {
-      //     setIsloading(true);
-      //     const result = await get<IVehicleDetailResponseType>(
-      //       `http://localhost:3003/api/${params.id}`
-      //     );
-      //     setVehicle(result.data);
-      //     const result = await get<VehicleReponseType>(
-      //       `http://localhost:3003/api/${params.id}`
-      //     );
-      //     setVehicle(result.data as IVehicleDetail)
-      //   } catch (error) {
-      //     if (error instanceof Error) setError(error.message);
-      //   }
-      //   setIsloading(false);
     };
     getProducts();
   }, []);
 
-  // let content: ReactNode;
-
-  // if (products) {
-  //   content = products?.map((product) => <p> {product.name}</p>);
-  // }
-
-  // return <div>{content}Products</div>;
-
   return (
-    <div>
+    <div className="products">
       {products?.map((product) => (
-        <div>
-          <img src={`./src/assets/img/${product.imageURL}`} alt="" />
-          <p> {product.name}</p>
+        <div className="product-card">
+          <Link to={"./products/" + product.id}>
+            {" "}
+            <img src={`./src/assets/img/${product.imageURL}`} alt="" />
+            <p> {product.name}</p> <p> {product.price}.00 kr</p>{" "}
+          </Link>
+          {/* <img src={`./src/assets/img/candle1.png${product.imageURL}`} alt="" /> */}
         </div>
       ))}
     </div>
