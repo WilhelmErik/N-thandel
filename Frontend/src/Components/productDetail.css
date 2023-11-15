@@ -1,11 +1,12 @@
 .product-detail{
     display: flex;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.064);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-grow: 1,2,3;
 }
 .product-detail div{
- width: 500px;
+  
+    max-width: 500px;
 }
